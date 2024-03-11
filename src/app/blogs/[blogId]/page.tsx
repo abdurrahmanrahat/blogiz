@@ -1,13 +1,22 @@
+import BlogDetails from "@/components/ui/BlogDetails";
+
 type TBlogDetailProps = {
   params: {
     blogId: string;
   };
 };
 
-const BlogDetailPage = ({ params }: TBlogDetailProps) => {
-  console.log(params);
+const BlogDetailPage = async ({ params }: TBlogDetailProps) => {
+  const res = await fetch(`http://localhost:5000/blogs/${params.blogId}`, {
+    cache: "no-store",
+  });
+  const blog = await res.json();
 
-  return <div>BlogDetailPage</div>;
+  return (
+    <div className="my-16">
+      <BlogDetails blog={blog} />
+    </div>
+  );
 };
 
 export default BlogDetailPage;
