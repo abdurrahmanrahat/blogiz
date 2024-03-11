@@ -53,6 +53,15 @@
       "author_name": "Mehedi Imun Anik",
       "blog_image": "https://startnearshoring.com/wp-content/uploads/2023/07/The_Growing_Importance_of_Cybersecurity.jpg",
       "total_likes": "950"
+    },
+    {
+      "id": "7",
+      "title": "Artificial Intelligence: A Glimpse into the Future",
+      "description": "Embark on a journey through the evolving landscape of artificial intelligence. Witness its transformative impact on industries, society, and the ethical considerations guiding its development.",
+      "publish_date": "2024-03-21",
+      "author_name": "Alexandra Turing",
+      "blog_image": "https://img.freepik.com/free-photo/blogging-gone-viral-camera-concept_53876-127618.jpg?w=740&t=st=1710163285~exp=1710163885~hmac=781b831e5c1cb6d41e71fcea91d2df076bc82df5016f4a2933b02c2402e7c79f",
+      "total_likes": "100"
     }
   ]
 }
